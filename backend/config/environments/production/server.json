@@ -1,8 +1,9 @@
 {
-  "url": "${process.env.APP_URL}",
+  "port": "${process.env.NODE_PORT || 1337}",
+  "host": "${process.env.APP_HOST || '0.0.0.0'}",
   "production": true,
   "proxy": {
-    "enabled": true
+    "enabled": false
   },
   "cron": {
     "enabled": false
