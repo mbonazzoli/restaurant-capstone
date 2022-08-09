@@ -1,6 +1,7 @@
 {
-  "port": "${process.env.NODE_PORT || 1337}",
+  "port": "${process.env.NODE_PORT || 8080}",
   "host": "${process.env.APP_HOST || '0.0.0.0'}",
+  "url": "${process.env.PUBLIC_URL || http://localhost:8080}",
   "production": true,
   "proxy": {
     "enabled": false
